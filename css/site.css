@@ -1,0 +1,545 @@
+* {
+margin: 0; padding: 0;
+}
+html{
+height: 100%;
+}
+body {	
+background-color: #bebdbe; /*#bebdbe; общий цвет фона */
+margin: 0;
+width: 100%;
+height: 100%;
+text-align: center; /*для ие*/
+}
+img {
+border: 0;
+padding: 0;
+}
+a {
+color: #000000;
+}
+.forma {
+font-size: 11px;
+font-family: Tahoma, sans-serif;
+font-weight: 900;
+color: #ffffff;
+}
+.brand {
+margin: 5px;
+display: inline;
+}
+.m_link {
+text-decoration: none;
+color: #ffffff;
+}
+.logo {
+
+}
+#ifie {
+font-size: 20px;
+font-family: Tahoma, sans-serif;
+font-weight: 900;
+color: #000000;
+text-align: center;
+position: absolute;
+top: 50%;
+width: 890px;
+left: 50%;  
+height: 114px;
+margin-left: -445px;  
+margin-top: -57px;  
+}
+	#alltogether {
+	width: 960px;
+	min-height: 100%;
+	height: auto !important;
+	margin: 0 auto;
+	position: relative;
+	background-color: #ffffff;
+	background-image: url(../images/gradient.png);
+	background-repeat: repeat-y;
+	padding: 0;
+	}
+		#head {
+		position: relative;
+		height: 196px;
+		z-index: 1000;
+		}
+			#cars {
+			position: relative;
+			background-image: url(../images/cars.png);
+			height: 73px;
+			}
+			#address {
+			background-image: url(../images/address.png);
+			position: absolute;
+			top: 0;
+			left: 0; /*для ие*/
+			height: 90px;
+			width: 100%
+			}
+				#word_address {
+				top: 74px;
+				left: 380px;
+				position: absolute;
+				color: #000000;
+				font-size: 11px;
+				font-family: Tahoma, sans-serif;
+				font-weight: 400;
+				}	
+			#inside_header {
+			position: relative;
+			left: 0;
+			top: 17px;
+			height: 81px;
+			background-color: #000000;
+			}
+				#logotype {
+				position: absolute;
+				left: 0;
+				top: -45px;
+				}
+				#name1 {
+				color: #ffffff;
+				position: absolute;
+				left: 104px;
+				top: -40px;
+				background: none;
+				border: 0;
+				text-align: left;
+				height: 65px;
+				width: 130px;
+				cursor: pointer;
+				font-size: 30px;
+				font-family: Tahoma, sans-serif;
+				font-weight: 900;
+				text-align: center;
+				}
+				#slogan {
+				position: absolute;
+				left: 207px;
+				top: -42px;
+				background-image: url(../images/sfery_v_vacuume_03.png);
+				width: 560px;
+				height: 111px;
+				}
+					#word_slogan {
+					position: absolute;
+					left: 120px;
+					top: 66px;
+					font-style: italic;
+					font-size: 18px;
+					font-family: Arial, sans-serif;
+					font-weight: 400;
+					color: #ffffff;
+					}
+				#entrance {
+				position: absolute;
+				left: 718px;
+				top: 20px;
+				display: inline; /*none;*/
+				z-index: 1000;
+				}
+					#login {
+					position: absolute;
+					left: 0px;
+					top: 0;
+					width: 97px;
+					height: 17px;
+					border: 0;
+					/*color: #999999;*/
+					}
+						label#l_login {
+						color: #999999;
+						position: absolute;
+						left: 4px;
+						top: 2px;
+						/*z-index: 2000;*/
+						}
+					#password {
+					position: absolute;
+					left: 106px;
+					top: 0;
+					width: 97px;
+					height: 17px;
+					border: 0;
+					/*color: #999999;*/
+					}
+						label#l_password {
+						color: #999999;
+						position: absolute;
+						left: 110px;
+						top: 2px;
+						/*z-index: 2000;*/
+						}
+					#knopko {
+					position: absolute;
+					left: 212px;
+					top: 1px;
+					}
+					#reg {
+					position: absolute;
+					left: 1px;
+					top: 27px;
+					height: 15px;
+					cursor: pointer;
+					}
+					#forgot {
+					position: absolute;
+					left: 105px;
+					top: 27px;
+					width: 100px;
+					height: 15px;
+					cursor: pointer;
+					}
+				#exit {
+				position: absolute;
+				left: 750px;
+				top: 0px;
+				display: /*inline;*/ none;
+				text-align: left;
+				height: 60px;
+				width: 190px;
+				z-index: 1000;
+				}
+					#greeting {
+					position: absolute;
+					left: 0px;
+					top: 50px;
+					}
+					#knopko_exit {
+					background: none; 
+					border: 0;
+					position: absolute;
+					right: 193px;
+					top: 15px;
+					width: 40px;
+					margin-right: -40px;
+					padding: 0;
+					cursor: pointer;
+					}
+					#busket {
+					color: #ffffff;
+					position: absolute;
+					left: 65px;
+					top: 6px;
+					background-image: url(../images/korzina.png);
+					background-repeat: no-repeat;
+					}
+						#knopko_busket {
+						background: none; /*для оперы*/
+						border: 0;
+						height: 36px;
+						width: 117px;
+						color: #ffffff;
+						cursor: pointer;
+						}
+							#numeral {
+							position: absolute;
+							left: 17px;
+							top: 10px;
+							width: 30px;
+							text-align: center;
+							color: #333333;
+							font-size: 11px;
+							font-family: Tahoma, sans-serif;
+							font-weight: 900;
+							}
+							#word_busket {
+							position: absolute;
+							left: 70px;
+							top: 10px;
+							}
+			ul#menu  {
+			list-style: none;
+			color: #ffffff;
+			font-size: 11px;
+			font-family: Tahoma, sans-serif;
+			font-weight: 900;
+			background-image: url(../images/fon_menu3.png);
+			background-repeat: no-repeat; /*для Оперы*/
+			position: absolute;
+			left: 0;
+			top: 142px;
+			height: 54px;
+			width: 100%;
+			}
+				ul#menu  li {
+				position: relative; 
+				text-align: center;
+				display: inline;
+				}
+				ul#menu li.drop { /*иначе не центрируются почему-то Т_Т*/
+				z-index: 1000; /* иначе падает под основной блок*/
+				}
+				ul#menu  li#m_glavnaja {
+				top: 16px;
+				left: 0px;
+				position: absolute;
+				padding: 14px 0px 0px 0px;
+				height: 24px;
+				width: 60px;
+				}
+					ul#menu  li#m_glavnaja:hover {
+					background-image: url(../images/fm_glavnaya.png);
+					background-repeat: no-repeat;
+					}
+				ul#menu  li#m_starters {
+				top: 16px;
+				left: 60px;
+				position: absolute;
+				padding: 14px 0px 0px 0px;
+				height: 24px;
+				width: 73px;
+				background-image: url(../images/riska.png);
+				background-repeat: no-repeat;
+				}
+					ul#menu  li#m_starters:hover {
+					background-image: url(../images/fm_starters.png);
+					background-repeat: no-repeat;
+					}
+				ul#menu  li#m_generators {
+				top: 16px;
+				left: 133px;
+				position: absolute;
+				padding: 14px 0px 0px 0px;
+				height: 24px;
+				width: 86px;
+				background-image: url(../images/riska.png);
+				background-repeat: no-repeat;
+				}
+					ul#menu  li#m_generators:hover {
+					background-image: url(../images/fm_generators.png);
+					background-repeat: no-repeat;
+					}
+				ul#menu  li#m_servises {
+				top: 16px;
+				left: 219px;
+				position: absolute;
+				padding: 14px 0px 0px 0px;
+				height: 24px;
+				width: 54px;
+				background-image: url(../images/riska.png);
+				background-repeat: no-repeat;
+				}
+					ul#menu  li#m_servises:hover {
+					background-image: url(../images/fm_servises.png);
+					background-repeat: no-repeat;
+					}
+				ul#menu  li#m_delivery {
+				top: 16px;
+				left: 273px;
+				position: absolute;
+				padding: 8px 0px 0px 0px;
+				height: 30px;
+				width: 71px;
+				background-image: url(../images/riska.png);
+				background-repeat: no-repeat;
+				}
+					ul#menu  li#m_delivery:hover {
+					background-image: url(../images/fm_delivery.png);
+					background-repeat: no-repeat;
+					background-position: 0 0px;
+					margin: 0;
+					}
+				ul#menu  li#m_used_cars {
+				top: 16px;
+				left: 344px;
+				position: absolute;
+				padding: 8px 0px 0px 0px;
+				height: 30px;
+				width: 93px;
+				background-image: url(../images/riska.png);
+				background-repeat: no-repeat;
+				}
+					ul#menu  li#m_used_cars:hover {
+					background-image: url(../images/fm_used_cars.png);
+					background-repeat: no-repeat;
+					background-position: 0 0px;
+					}
+				ul#menu  li#m_technics {
+				top: 16px;
+				left: 437px;
+				position: absolute;
+				padding: 8px 0px 0px 0px;
+				height: 30px;
+				width: 89px;
+				background-image: url(../images/riska.png);
+				background-repeat: no-repeat;
+				}
+					ul#menu  li#m_technics:hover {
+					background-image: url(../images/fm_technics.png);
+					background-repeat: no-repeat;
+					background-position: 0 0px;
+					}
+				ul#menu  li#m_recomendations {
+				top: 16px;
+				left: 526px;
+				position: absolute;
+				padding: 5px 0px 0px 0px;
+				height: 33px;
+				width: 100px;
+				background-image: url(../images/riska.png);
+				background-repeat: no-repeat;
+				}
+					ul#menu  li#m_recomendations:hover {
+					background-image: url(../images/fm_recomendations.png);
+					background-repeat: no-repeat;
+					background-position: 0 0px;
+					}
+				ul#menu  li#m_forum {
+				top: 15px;
+				left: 626px;
+				position: absolute;
+				padding: 15px 0px 0px 0px;
+				height: 25px;
+				width: 52px;
+				background-image: url(../images/riska-forum.png);
+				background-repeat: no-repeat;
+				background-position: 0 6px;
+				}
+					ul#menu  li#m_forum:hover {
+					background-image: url(../images/fm_forum.png);
+					background-repeat: no-repeat;
+					background-position: 0 6px;
+					}
+				ul#menu  li#m_contacts {
+				top: 15px;
+				left: 677px;
+				position: absolute;
+				padding: 15px 0px 0px 0px;
+				height: 25px;
+				width: 75px;
+				background-image: url(../images/riska_small.png);
+				background-repeat: no-repeat;
+				background-position: 0 9px;
+				}
+					ul#menu  li#m_contacts:hover {
+					background-image: url(../images/fm_contacts.png);
+					background-repeat: no-repeat;
+					background-position: 0 9px;
+					}
+						ul#menu  li ul.inside_menu {
+						display: none; 
+						position: absolute; 
+						left: 8px;
+						top: 38px; 
+						margin: 0;
+						padding: 0;
+						}
+						ul#menu  li:hover ul.inside_menu {
+						display: block; /* при наведении мышкой, показывем подменю */
+						float: none;
+						}
+							ul#menu  li ul.inside_menu li.inside_drop {
+							margin-left: 3px;
+							padding-left: 5px;
+							/*margin-top: 0px;
+							top: 0px;*/
+							float: none;
+							display: block;
+							text-align: left;
+							height: 20px;
+							left: -9px;
+							}
+								ul#menu  li ul.inside_menu li.inside_drop:hover {
+								text-decoration: underline;
+								}
+							ul#menu  li#m_glavnaja ul.inside_menu li.inside_drop {
+							margin-left: 1px;
+							background-image: url(../images/drop_glavnaja.png);
+							background-repeat: no-repeat;
+							width: 80px;
+							}
+							ul#menu  li#m_starters ul.inside_menu li.inside_drop {
+							background-image: url(../images/drop_starters_generators.png);
+							background-repeat: no-repeat;
+							width: 130px;
+							}
+							ul#menu  li#m_generators ul.inside_menu li.inside_drop {
+							background-image: url(../images/drop_starters_generators.png);
+							background-repeat: no-repeat;
+							width: 130px;
+							}
+							ul#menu  li#m_servises ul.inside_menu li.inside_drop {
+							background-image: url(../images/drop_services.png);
+							background-repeat: no-repeat;
+							width: 180px;
+							}
+		#ghost {
+		background-image: url(../images/prizrak.png);
+		background-repeat: no-repeat;
+		height: 314px;
+		width: 436px;
+	    position: fixed;
+		overflow: auto;  
+		left: 50%;  
+		top: 50%;  
+		margin-left: -218px;  
+		margin-top: -157px;  
+		}
+		#left_column {
+		width: 175px;
+		min-height: 200px;
+		float:left;
+		text-align: left;
+		}
+		#content_center {
+		min-height: 200px;
+		width: 610px;
+		float:left;
+		text-align: left;
+		}
+		#right_column {
+		float: left;
+		min-height: 200px;
+		width: 175px;
+		height: 100%;
+		text-align: left;
+		}
+		#clear {
+		height: 1px; 
+		clear: both;
+		font-size: 0px; 
+		line-height: 0px;
+		}
+		#main_footer {
+		height: 67px;
+		width: 100%;
+		clear: both;
+		}
+	#footer { 
+	width: 960px;
+	margin-top: -67px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	height: 67px; 
+	background-image: url(../images/footer.png);
+	position: relative;
+	}
+		#brands {
+		display: inline;
+		float: right;
+		width: 770px;
+		text-align: left;
+		position: absolute;
+		bottom: 6px;
+		left: 5px;
+		}
+		#short_info {
+		position: absolute;
+		bottom: 6px;
+		right: 0;
+		width: 173px;
+		color: #ffffff;
+		font-size: 12px;
+		font-family: Arial, sans-serif;
+		font-weight: 900;
+		font-style: italic;
+		text-align: left;
+		line-height: 1.5;
+		}
+			#tel {
+			display: none;
+			}

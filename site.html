@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Стартер Центр</title>
+		<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="ru" /> -->
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<script type="text/javascript" src="js/site.js"></script>
+		<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+	</head>
+	<body>
+	<!--[if IE]> 
+		<style type="text/css">body{background-color: #b7b5b7;}</style>
+	<![endif]-->
+	<!--[if lte IE 6]> 
+		<script type="text/javascript">window.location.href='site-ie.html';</script>
+	<![endif]-->
+		<div id="alltogether">
+			<div id="head"> <!-- весь верхний блок-->
+				<div id="cars">	<!-- блок с машинками вверху -->
+				</div>
+				<div id="address"> <!-- блок с условным адресом текущей страницы и фоном для него-->
+					<div id="word_address">Главная > тут будет адрес текущей страницы <!-- собственно адрес -->
+					</div>
+				</div>	
+				<div id="inside_header">  <!-- верхний общий блок -->
+					<a id="logotype" class="m_link" href="">  <!-- летающий двигатель c сылкой на главную страницу -->
+						<img src="images/logotype.png" />
+					</a>
+					<h1 id="name1"><!-- название сайта с сылкой на главную страницу -->
+						<a class="m_link" href="">Стартер Центр</a>
+					</h1>
+					<div id="slogan"><!-- слоган+летающие хрени -->
+						<p id="word_slogan">Наши стартеры заведут любую...</p>
+					</div>
+					<form id="entrance" action="#"> <!-- Логин Пароль Кнопко -->
+						<div>
+							<label for="login" id="l_login" class="forma">Логин</label>
+							<input name="login" id="login" class="forma" type="text" />
+						</div>
+						<div>
+							<label for="password" id="l_password" class="forma">Пароль</label>
+							<input name="password" id="password" class="forma" type="password" />
+						</div>
+						<div>
+							<input name="knopko" id="knopko" type="image" src="images/knopko.png" /> <!-- кнопко -->
+						</div>
+						<a class="forma m_link" id="forgot" href="">Забыли пароль?</a>
+						<a class="forma m_link" id="reg" href="">Регистрация</a>
+					</form>
+					<div id="exit" class="forma">
+						<div id="greeting">
+							Здравствуйте, <span id="ins_login">Логин</span>
+						</div>
+						<button id="knopko_exit" class="forma">Выйти</button>
+						<div id="busket"> <!-- блок с корзиной -->
+							<button id="knopko_busket" class="forma">
+								<div id="numeral">999</div>
+								<div id="word_busket">Корзина</div>
+							</button>
+						</div>	
+					</div>
+				</div> 
+				<ul id="menu"> <!-- главное/основное меню -->
+					<li class="drop" id="m_glavnaja"> <!-- класс для кнопочек, из которых выпадает список -->
+						<a class="m_link" href="">Главная</a>
+						<ul class="inside_menu"> <!-- класс для выпадающих блоков меню -->
+							<li class="inside_drop"> <!-- класс для выпадающих пунктов -->
+								<a class="m_link" href="">О компании</a> 
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Гарантии</a>
+							</li>
+						</ul>
+					</li>
+					<li class="drop" id="m_starters">
+						<a class="m_link" href="">Стартеры</a>
+						<ul class="inside_menu">
+							<li class="inside_drop">
+								<a class="m_link" href="">Магнетон</a>
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Легковые</a>
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Грузовые</a>
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Для спецтехники</a>
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Для сельхозтехники</a>
+							</li>
+						</ul>
+					</li>
+					<li class="drop" id="m_generators">
+						<a class="m_link" href="">Генераторы</a>
+						<ul class="inside_menu">
+							<li class="inside_drop">
+								<a class="m_link" href="">Магнетон</a>
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Легковые</a>
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Грузовые</a>
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Для спецтехники</a>
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Для сельхозтехники</a>
+							</li>
+						</ul>
+					</li>
+					<li class="drop" id="m_servises">
+						<a class="m_link" href="">Услуги</a>
+						<ul class="inside_menu">
+							<li class="inside_drop">
+								<a class="m_link" href="">Ремонт стартеров</a>
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Ремонт генераторов</a>
+							</li>
+							<li class="inside_drop">
+								<a class="m_link" href="">Заявка на подбор запчастей</a>
+							</li>
+						</ul>
+					</li>
+					<li id="m_delivery">
+						<a class="m_link" href="">Оплата и<br />доставка</a>
+					</li>
+					<li id="m_used_cars">
+						<a class="m_link" href="">Продажа б/у<br />автомобилей</a>
+					</li>
+					<li id="m_technics">
+						<a class="m_link" href="">Продажа<br />спецтехники</a>
+					</li>
+					<li id="m_recomendations">
+						<a class="m_link" href="">Статьи и<br />рекомендации</a>
+					</li>
+					<li id="m_forum">
+						<a class="m_link" href="">Форум</a>
+					</li>
+					<li id="m_contacts">
+						<a class="m_link" href="">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<div id="ghost">
+			</div>
+			<div id="left_column"> <!-- логотипы слева -->
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_magneton.png" alt="logo" /></a></div>
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_valeo.png" alt="logo" /></a></div>
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_cargo.png" alt="logo" /></a></div>
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_bosh.png" alt="logo" /></a></div>
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_denso.png" alt="logo" /></a></div>
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_iskra.png" alt="logo" /></a></div>
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_zm.png" alt="logo" /></a></div>
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_ntn.png" alt="logo" /></a></div>
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_magneti.png" alt="logo" /></a></div>
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_orme.png" alt="logo" /></a></div>
+				<div class="logo"><a href="" target="_blank"><img src="images/logos_ika.png" alt="logo" /></a></div>
+			</div>
+			<div id="content_center"> <!-- текст до правого серого -->
+				<p>Основной текст по центру <a href="">ссылко</a></p>
+			</div>
+			<div id="right_column">Правая колонка
+			</div>
+			<div id="clear">
+			</div>
+			<div id="main_footer">
+			</div>
+		</div>
+		<div id="footer">
+			<div id="brands">
+				<div class="brand"><img src="images/brand_03.png" alt="brand" /></div>
+				<div class="brand"><img src="images/brand_05.png" alt="brand" /></div>
+				<div class="brand"><img src="images/brand_08.png" alt="brand" /></div>
+				<div class="brand"><img src="images/brand_20.png" alt="brand" /></div>
+				<div class="brand"><img src="images/brand_10.png" alt="brand" /></div>
+				<div class="brand"><img src="images/brand_12.png" alt="brand" /></div>
+				<div class="brand"><img src="images/brand_14.png" alt="brand" /></div>
+				<div class="brand"><img src="images/brand_23.png" alt="brand" /></div>
+				<div class="brand"><img src="images/brand_25.png" alt="brand" /></div>
+				<div class="brand"><img src="images/brand_27.png" alt="brand" /></div>
+				<div class="brand"><img src="images/brand_17.png" alt="brand" /></div>
+			</div>
+			<div id="short_info">
+				<p>Стартер Центр</p>
+				<p>тел.: 044
+					<span id="tel">-</span>
+					- 222
+					<span id="tel">-</span>
+					3344
+				</p>
+				<p>e-mail: info@starter.com.ua</p>
+			</div>
+		</div>
+	</body>
+</html>
